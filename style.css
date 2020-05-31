@@ -1,0 +1,34 @@
+body {
+    background: rgb(84, 11, 162);
+    background: linear-gradient(142deg, rgba(84, 11, 162, 1) 0%, rgba(255, 22, 116, 1) 100%);
+    height: 100vh;
+    padding-top: 30vh;
+    overflow: hidden;
+}
+
+.info {
+    margin: auto;
+    padding: 50px;
+    width: 700px;
+    color: rgb(224, 224, 224);
+    font-family: Oswald;
+}
+
+.info>h1 {
+    font-size: 45px;
+}
+
+.info>p {
+    font-size: 25px;
+}
+
+.info>p>a {
+    text-decoration: none;
+    color: rgb(113, 230, 228);
+}
+
+.info>i {
+    font-size: 150px;
+    text-align: center;
+    display: block;
+}
